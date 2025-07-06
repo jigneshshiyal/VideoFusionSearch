@@ -8,7 +8,7 @@ import tempfile
 import requests
 
 from video_fusion_search import video_audio_fusion_search, convert_seconds_to_time_str
-from search_fucntions import multimodel_search
+from backend.search_functions import multimodel_search
 
 app = FastAPI()
 

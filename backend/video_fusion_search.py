@@ -7,7 +7,7 @@ from audio_processing import extract_audio
 from extract_text import extract_text
 from chromadb_functions import save_text_emb_in_db, save_img_emb_in_db, check_url_in_db
 from extract_scenes_from_video import extract_frames_per_scene
-from search_fucntions import multimodel_search
+from backend.search_functions import multimodel_search
 
 def convert_seconds_to_time_str(seconds):
     seconds = int(seconds)

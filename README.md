@@ -1,6 +1,6 @@
-# 🚀 FastTuneWhisper
+# 🚀 VideoFusionSearch
 
-**FastTuneWhisper** is a production-ready multimodal search system that enables fast **text** and **image-based** search over YouTube videos. It leverages **fine-tuned Whisper**, **CLIP embeddings**, and **ChromaDB** to build a searchable video content index.
+**VideoFusionSearch** is a production-ready multimodal search system that enables fast **text** and **image-based** search over YouTube videos. It leverages **fine-tuned Whisper**, **CLIP embeddings**, and **ChromaDB** to build a searchable video content index.
 
 <br>
 
@@ -8,7 +8,7 @@
 
 * 🎥 Accepts YouTube video URLs
 * 🧠 Scene-based frame extraction
-* 📝 Audio transcription using **Fast/Fine-tuned Whisper**
+* 📝 Audio transcription using **OpenAI Whisper**
 * 💡 Text & image embeddings using **CLIP (ViT-B/32)**
 * 🔎 Multimodal search support: **text-to-video** and **image-to-video**
 * ⚡ FastAPI backend + Streamlit frontend
@@ -52,7 +52,7 @@ FastTuneWhisper/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/jigneshshiyal/FastTuneWhisper.git
+git clone https://github.com/jigneshshiyal/VideoFusionSearch.git
 cd FastTuneWhisper
 ```
 
